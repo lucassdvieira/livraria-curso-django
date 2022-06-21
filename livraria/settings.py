@@ -15,6 +15,7 @@ SECRET_KEY = 'django-insecure-opgq$&goi82ah&w*^d&l#a(utx694+e8s&-p-5a8(5^=ak(ly9
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    '*',
     '0.0.0.0',
     'https://livraria-curso-django-lucas.herokuapp.com/',  # your herokuapp url
     '127.0.0.1'
